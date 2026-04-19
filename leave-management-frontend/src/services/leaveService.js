@@ -1,7 +1,8 @@
 import axios from 'axios';
 
-// base URL of Spring boot backend
-const API_URL = 'http://localhost:8080/api/leaves';
+// base URL of Spring boot backend (uses environment variable for deployment)
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080';
+const API_URL = `${BASE_URL}/api/leaves`;
 
 //fetches leaves fromn the database
 export const getLeaves = async () => {
