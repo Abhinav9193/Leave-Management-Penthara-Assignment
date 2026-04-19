@@ -1,0 +1,18 @@
+# Node
+node_modules/
+dist/
+.env
+
+# Java/Maven/Gradle
+target/
+.gradle/
+build/
+*.class
+
+# IDEs
+.idea/
+.vscode/
+
+# Other
+.DS_Store
+Thumbs.db
