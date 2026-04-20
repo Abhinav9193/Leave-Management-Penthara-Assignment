@@ -1,0 +1,11 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+/src/main/resources/application-local.properties
+/.idea/
+.DS_Store
+*.class
+*.log
+*.sql
+*.temp
+/bin/
+/out/
